@@ -2556,9 +2556,9 @@ input, select, textarea {
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #263d62;
 				}
-
+			
 /* Image */
 
 	.image {
@@ -3241,27 +3241,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #8D69E8;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #AE8778;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #6A5CEE;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #355B7F;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #AC72B3;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #263D62;
 		}
 
 		.wrapper.fullscreen {
