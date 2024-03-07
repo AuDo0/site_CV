@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        (function() {
+            var userLang = navigator.language || navigator.userLanguage; 
+            if (userLang.startsWith('fr')) {
+                window.location.href = '/fr/index.html';
+            } else {
+                window.location.href = '/en/index.html';
+            }
+        })();
+    </script>
+</head>
+<body>
+    <noscript>
+        <p>JavaScript is required for automatic language redirection. Please enable JavaScript or choose your language manually:</p>
+        <ul>
+            <li><a href="/en/index.html">English</a></li>
+            <li><a href="/fr/index.html">Français</a></li>
+        </ul>
+    </noscript>
+</body>
+</html>
