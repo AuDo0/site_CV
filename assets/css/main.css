@@ -4039,3 +4039,36 @@ input, select, textarea {
   font-size: 1.5em;
 }
 
+
+
+/* Flags container */
+.flags-container {
+  position: fixed;
+  top: 0;
+  right: 50px;
+  z-index: 1000; /* Ensures it's on top of other elements */
+  background-color: transparent; /* Adjust based on your site's color scheme */
+  padding: 10px; /* Adjust the space around the flags */
+}
+.flags-container1 {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  z-index: 1000; /* Ensures it's on top of other elements */
+  background-color: transparent; /* Adjust based on your site's color scheme */
+  padding: 10px; /* Adjust the space around the flags */
+}
+/* Style for the flags links */
+.flags-link {
+  font-size: 24px; /* Adjust the size of the flags/icons */
+  color: #000; /* Adjust color to match your site's theme */
+  margin-left: 15px; /* Space between flags */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Adjust on hover to give feedback to the user */
+.flags-link:hover,
+.flags-link:focus {
+  color: #555; /* Darker shade on hover, adjust as needed */
+}
+
