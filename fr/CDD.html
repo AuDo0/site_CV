@@ -23,16 +23,16 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Short term contract</a>
+				<a href="index.html" class="title">CDD au CNRS</a>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="PhD.html" class="active">PhD thesis</a></li>
-						<li><a href="CDD.html" class="active">Short term contract</a></li>
-						<li><a href="PFE.html" class="active">Final year Internship</a></li>
-						<li><a href="Gliding.html" class="active">Gliding</a></li>
-						<li><a href="0G.html" class="active">Micro-gravity flight</a></li>
-						<li><a href="Gliding.html#gliding_soft" class="active">Gliding Analyse</a></li>
+						<li><a href="index.html">Page d'acceuil</a></li>
+						<li><a href="PhD.html" class="active">Doctorat</a></li>
+						<li><a href="CDD.html" class="active">CDD au CNRS</a></li>
+						<li><a href="PFE.html" class="active">Projet de fin d'étude</a></li>
+						<li><a href="Gliding.html" class="active">Vol en planeur</a></li>
+						<li><a href="0G.html" class="active">Vol en micro-gravité</a></li>
+						<li><a href="Gliding.html#gliding_soft" class="active">Programme d'analyse d'un vol</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -43,20 +43,25 @@
 				<!-- Main -->
 					<section id="PBI" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Inverse method to estimate heat flux</h1>
+							<h1 class="major">Méthodes inverses pour la mesure d'un flux de chaleur.</h1>
 							<span class="image fit"><img src="../images/PBI_details.png" alt="" /></span>
-							<p>To dimension rocket launch pads, it is necessary to measure the heat flux impacting the installations. Part of this work involved developing inverse method tools to estimate this heat flux. In the figure above, the diagram on the left shows the experimental setup where a hot supersonic jet (700K) impacts a steel plate. At the rear of this plate, temperature measurements are made to estimate the heat flux. Given the thickness and conduction of the plate, methods of regularization and taking into account future time steps were necessary. The figure on the right shows a heat flux field estimated by this method. As a result, this tool can be used to better dimension rocket launch pads.</p>
+							<p>Afin de dimensionner le pas de tir des fusées, il est nécessaire de mesurer le flux de chaleur qui impact les installations. Une partie de ce travail fut de développer une méthode inverse pour estimer ce flux. 
+							La méthode inverse permet d'enrichir les mesures experimentales et de connaître des quantités là où la mesure est impossible. 
+							Ici, une plaque en acier inoxidable fut placée dans un jet chaud (700K) supersonique. La mesure de température en face arrière permet ensuite de remonter au flux (condition au limites) impactant la plaque en face avant.
+							Sur la figure ci-dessus, le schéma de gauche montre le dispositif expérimenal avec le jet libre supersonique et la plaque impactée. 
+							Connaissant les propriétés de la plaque et grâce à une techniquee de régularisation prenant en compte les instants futurs pour avoir une meilleure convergence, le flux de chaleur a pu être estimé.
+							La figure de droite montre un champs de flux de chaleur obtenue par méthode inverse. Cette méthode implémentée permet donc de mieux dimensionner le pas de tir des fusées.</p>
 						</div>
 					</section>
 					<section id="Metrology" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Metrology development to discriminate two-phase flow.</h1>
+							<h1 class="major">Dévelloppement d'un métrologie diphasique (avec discrimination des phases).</h1>
 							<span class="image fit"><img src="../images/CDD_detail.png" alt="" /></span>
-							<p>Rocket take-offs create vibrations (of aeroacoustic origin and due to the impact of the jet on the launch pad) which can degrade the payload. One way of reducing the disturbance caused by interactions between the jet and structures is to inject water into the engine jet: deluges. The mechanisms behind this phenomenon are probably the reduction of large turbulent structures, and the exchange of momentum and heat between phases. To better understand the physical phenomenon, it is necessary to measure the velocity and position of water drops and airflow. 
-
-The metrology used is based on fluorescence. To discriminate between the two phases (air and water droplets), they are seeded with two different fluorescent species. The fluorescence spectrum shows that the species' emissions are distinct, making it possible to discriminate between them using optical filters.
-
-The image on the right shows the phase distinction: air on the left, water on the right. With this method, velocity and particle size can be measured simultaneously in both phases.</p>
+							<p> Les vibrations créées par les fusées au décollage (Bruit du jet et interaction avec les infrastructures) peuvent endomager les satelittes ou spationautes présents à bord. 
+							Une manière de réduire ces bruits est d'injecter de l'eau liquide sous les moteurs et donc dans les jets de ces moteurs : les déluges. Le mécanisme derrière cette réduction de bruit reste flou mais il est probable que les grandes structures turbulentes soit réduites et que les échanges de quantités de mouvement entre les phases participent à la réduction du bruit. Afin d'avoir une meilleure compréhension physique de ce phénomène, il a été nécessaire de faire des mesures de vitesses et de position des gouttes d'eau et de l'écoulement.
+							La métrologie développée est basée sur la fluorescence. Les phases (air et gouttes d'eau) sont discriminées grâce à leur spectre de fluorescence. Les deux phases sont ensemencées avec des espèces fluorescentes différentes pour avoir des spectres de fluorescence émis distincts. Avec des filtres optiques, les séparations est alors faite avant la prise d'image et ne nécessite donc aucun post-traitement. L'image du centre montre le spectre des deux espèces fluorescentes et les filtres optiques utilisés. 
+							L'image de droite montre les deux phases distincts et simultanément mesurées, l'air à gauche et l'eau à droite. Avec cette méthode, la vitesse de l'écoulement peut être calculée dans l'air et les gouttes d'eau. Pour les gouttes, leur taille et leur trajectoire sont aussi estimées. Ces mesures sont simultanées dans les deux phases.
+							L'image de gauche est une illustration dans le visible de la fluorescence des deux espères.</p>
 						</div>
 					</section>
 
@@ -66,7 +71,7 @@ The image on the right shows the phase distinction: air on the left, water on th
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li><a href="#top" class="button small">Back to Top</a></li>
+						<li>&copy; Untitled. All rights reserved.</li><li><a href="#top" class="button small">En haut</a></li>
 					</ul>
 				</div>
 			</footer>
